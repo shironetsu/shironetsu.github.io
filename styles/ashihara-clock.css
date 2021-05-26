@@ -5,14 +5,14 @@
 }
 
 #clock-inner {
+    font-size: 2em;
     display: flex;
     align-items: center;
     justify-content: center;
     border: solid 2px black;
     border-radius: 1rem;
-    font-size: 20px;
-    width: 36rem;
-    height: 3rem;
-    margin-top: 10%;
+    width: 56rem;
+    height: 5rem;
+    margin-top: 15%;
     text-align: center;
 }
