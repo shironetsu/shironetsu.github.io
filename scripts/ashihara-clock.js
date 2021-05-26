@@ -1,4 +1,5 @@
-//年月日時分秒を逆順にしてMD5ハッシュ化
+//年月日時分秒を逆順にしてMD5ハッシュ化-->2桁区切りでコロンを挿入
+//Example: 20300721125353 --> c7:7c:3d:34:4d:dd:8c:97:25:a3:a2:19:1e:4c:a4:f6
 const getHasedDate = (date) => {
     const reversed = Array.from(date).reverse().join('')
     const md5 = CryptoJS.MD5(reversed)
