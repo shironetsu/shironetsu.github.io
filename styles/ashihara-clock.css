@@ -5,7 +5,7 @@
 }
 
 #clock-inner {
-    font-size: 2em;
+    font-size:200%;
     display: flex;
     align-items: center;
     justify-content: center;
