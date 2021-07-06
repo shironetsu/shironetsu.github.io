@@ -5,7 +5,7 @@ date:   2021-07-06 23:22:00 +0900
 categories: math
 usemathjax: true
 image: 
-    path: https://github.com/shironetsu/icosahedron/blob/main/ramanujan_continued_fraction.svg?raw=true
+    path: https://github.com/shironetsu/icosahedron/blob/main/ramanujans_continued_fraction.png?raw=true
 ---
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
