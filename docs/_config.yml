@@ -18,12 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Shironetsu's awesome blog
-email: your-email@example.com
+title: Shironetsu's GitHub Pages
+#email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Shironetsu's GitHub Pages.
 domain: shironetsu.github.io
 url: https://shironetsu.github.io # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: / # the subpath of your site, e.g. /blog
@@ -34,6 +32,11 @@ github_username:  shironetsu
 theme: minima
 plugins:
   - jekyll-feed
+
+markdown: kramdown
+
+kramdown:
+  parse_block_html: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -55,4 +58,3 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-#markdown: kramdown
